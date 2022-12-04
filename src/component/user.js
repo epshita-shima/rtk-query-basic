@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import {useGetAllUsersQuery} from '../services/users'
 const User = () => {
     const {data,isLoading,isError}=useGetAllUsersQuery()
+    console.log(useGetAllUsersQuery())
 if(isLoading){
     return <p>Loading.....</p>
 }

@@ -10,7 +10,8 @@ export const usersApi=createApi({
             query: ()=> "users"
         }),
         getUsersById: builder.query({
-            query: (userId)=> `users/${userId}`
+            query: (userId)=>( `users/${userId}`) 
+               
         })
     })
 })

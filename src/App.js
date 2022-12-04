@@ -12,7 +12,7 @@ function App() {
           <Container>
             <Routes>
               <Route  path="/" element={<User/>}></Route>
-              <Route  path="/users/:userId" element={<UserProfile/>}></Route>
+              <Route  path="users/:userId" element={<UserProfile/>}></Route>
             </ Routes>
           </Container>
         </CssBaseline>
