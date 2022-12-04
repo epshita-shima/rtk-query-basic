@@ -14,7 +14,6 @@ const UserProfile = () => {
     <div >
       <Grid sm={2} item>
                 <Paper sx={{padding:2, marginTop:2,textAlign:'center'}}>
-
                     <h4>{data.name}</h4>
                     <h5>{data.email}</h5>
                 </Paper>
